@@ -19,8 +19,14 @@ document.getElementById("clearForm_S2").onclick = function() {
 document.getElementById("Submit_Story1").onclick = function() {
     submit_Story1();      
 }
+document.getElementById("Submit_Story1b").onclick = function() {
+    submit_Story1();      
+}
 
 document.getElementById("Submit_Story2").onclick = function() {
+    submit_Story2();      
+}
+document.getElementById("Submit_Story2b").onclick = function() {
     submit_Story2();      
 }
 
@@ -161,6 +167,8 @@ function clearInput_S1() {
     document.getElementById("S1_word-15").value = "";
     document.getElementById("S1_word-16").value = "";
     document.getElementById("S1_word-17").value = "";
+    document.getElementById("S1_word-18").value = "";
+    document.getElementById("S1_word-19").value = "";
 }
 
 function clearInput_S2() {
@@ -181,4 +189,7 @@ function clearInput_S2() {
     document.getElementById("S2_word-15").value = "";
     document.getElementById("S2_word-16").value = "";
     document.getElementById("S2_word-17").value = "";
+    document.getElementById("S2_word-18").value = "";
+    document.getElementById("S2_word-19").value = "";
+    document.getElementById("S2_word-20").value = "";
 }
