@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <div class="container-fluid px-0">
+        <div class="jumbotron text-center" id="top_Section">
+            <h1 class="display-4">A Mad Lib Story</h1>
+            <p class="lead">Quarantine Style</p>
+            
+            <button id="S1">Story 1</button>
+            <button id="S2">Story 2</button>
+        </div>
+
+
+        <!--//////--STORY 1--//////-->
+        <div class="container-fluid text-center" id="Story1-Words">
+            <h2 class="display-5">Microwave Ovens</h2>
+            <button id="autoFill_S1" type="button">autoFill</button>
+            <button id="clearForm_S1" type="button">Clear Form</button>
+            <form>
+                <div class="row">
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S1_word-1" placeholder="Room in House">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S1_word-2" placeholder="Adverb">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S1_word-3" placeholder="Adjective">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S1_word-4" placeholder="Verb (Present Tense)">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S1_word-5" placeholder="Plural Noun">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S1_word-6" placeholder="A Number">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S1_word-7" placeholder="A Liquid">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S1_word-8" placeholder="An Animal">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S1_word-9" placeholder="Adjective">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S1_word-10" placeholder="A Food">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S1_word-11" placeholder="Adjective">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S1_word-12" placeholder="Verb Ending in 'ing'">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S1_word-13" placeholder="Plural Noun">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S1_word-14" placeholder="Plural Noun">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S1_word-15" placeholder="A Vehicle">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S1_word-16" placeholder="Verb (Present Tense)">
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S1_word-17" placeholder="Adverb">
+                    </div>
+                    <div class="col-md-3 my-2">
+                    </div>
+                    <div class="col-md-3 my-2">
+                    </div>
+                    <div class="col-md-3 my-2">
+                    </div>
+                </div>
+                <button class="my-4" id="Submit_Story1" type="button">Submit</button>
+            </form>
+        </div>
+
+        <div class="container-fluid text-center" id="Story1-Complete">
+            <h2 class="display-5">Microwave Ovens</h2>
+
+            <div class="row text-left" id="storyText">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <p>
+                        Do you have a microwave oven in your <span class="insertedWord" id="S1_w1"></span>?
+                        Microwave ovens are <span class="insertedWord" id="S1_w2"></span> popular today.
+                        Every <span class="insertedWord" id="S1_w3"></span> kitchen should have one.
+                        They can be used to <span class="insertedWord" id="S1_w4"></span> potatoes or to bake <span
+                            class="insertedWord" id="S1_w5"></span> in only <span class="insertedWord" id="S1_w6"></span>
+                        seconds.
+                        They will also warm up a cup of <span class="insertedWord" id="S1_w7"></span> or roast a/an <span
+                            class="insertedWord" id="S1_w8"></span> or mak a/an <span class="insertedWord" id="S1_w9"></span>
+                        sauce out of garlic and <span class="insertedWord" id="S1_w10"></span>.
+
+                    </p>
+                    <p>
+                        The microwave works by sending <span class="insertedWord" id="S1_w11"></span> short waves into the
+                        food.
+                        The waves are <span class="insertedWord" id="S1_w12"></span> at the rate of 6,000,000 <span
+                            class="insertedWord" id="S1_w13"></span> per second.
+                        This cooks food but does not affect china or paper <span class="insertedWord" id="S1_w14"></span>.
+                        The microwave has a control panel lik a 747 <span class="insertedWord" id="S1_w15"></span>.
+                        You operate it by pushing buttons marked <em>START, STOP, and <span class="insertedWord"
+                                id="S1_w16"></span>.</em>
+                        A microwave is absolutely safe as long as you use it <span class="insertedWord"
+                            id="S1_w17"></span>.
+                    </p>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+
+        </div>
+
+        <div class="container-fluid text-center" id="Story2-Words">
+            <h2 class="display-5">Secondhand Lions</h2>
+            <button id="autoFill_S2" type="button">autoFill</button>
+            <button id="clearForm_S2" type="button">Clear Form</Form></button>
+            <form>
+                <div class="row">
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S2_word-1" placeholder="Room with Mouse">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S2_word-2" placeholder="Adverb">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S2_word-3" placeholder="A Color">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S2_word-4" placeholder="Verb (Present Tense)">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S2_word-5" placeholder="Plural Noun">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S2_word-6" placeholder="A Number">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S2_word-7" placeholder="A Liquid">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S2_word-8" placeholder="An Animal">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S2_word-9" placeholder="Adjective">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S2_word-10" placeholder="A Food">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S2_word-11" placeholder="Adjective">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S2_word-12" placeholder="Verb Ending in 'ing'">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S2_word-13" placeholder="Plural Noun">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S2_word-14" placeholder="Plural Noun">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S2_word-15" placeholder="A Vehicle">
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S2_word-16" placeholder="Verb (Present Tense)">
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-3 my-2">
+                        <input type="text" class="form-control" id="S2_word-17" placeholder="Adverb">
+                    </div>
+                    <div class="col-md-3 my-2">
+                    </div>
+                    <div class="col-md-3 my-2">
+                    </div>
+                    <div class="col-md-3 my-2">
+                    </div>
+                </div>
+                <button class="my-4" id="Submit_Story2" type="button">Submit</button>
+            </form>
+        </div>
+
+        <div class="container-fluid text-center" id="Story2-Complete">
+            <h2 class="display-5">Secondhand Lions</h2>
+
+            <div class="row text-left" id="storyText">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <p>
+                        Do you have a microwave oven in your <span class="insertedWord" id="S2_w1"></span>?
+                        Microwave ovens are <span class="insertedWord" id="S2_w2"></span> popular today.
+                        Every <span class="insertedWord" id="S2_w3"></span> kitchen should have one.
+                        They can be used to <span class="insertedWord" id="S2_w4"></span> potatoes or to bake <span
+                            class="insertedWord" id="S2_w5"></span> in only <span class="insertedWord" id="S2_w6"></span>
+                        seconds.
+                        They will also warm up a cup of <span class="insertedWord" id="S2_w7"></span> or roast a/an <span
+                            class="insertedWord" id="S2_w8"></span> or mak a/an <span class="insertedWord" id="S2_w9"></span>
+                        sauce out of garlic and <span class="insertedWord" id="S2_w10"></span>.
+
+                    </p>
+                    <p>
+                        The microwave works by sending <span class="insertedWord" id="S2_w11"></span> short waves into the
+                        food.
+                        The waves are <span class="insertedWord" id="S2_w12"></span> at the rate of 6,000,000 <span
+                            class="insertedWord" id="S2_w13"></span> per second.
+                        This cooks food but does not affect china or paper <span class="insertedWord" id="S2_w14"></span>.
+                        The microwave has a control panel lik a 747 <span class="insertedWord" id="S2_w15"></span>.
+                        You operate it by pushing buttons marked <em>START, STOP, and <span class="insertedWord"
+                                id="S2_w16"></span>.</em>
+                        A microwave is absolutely safe as long as you use it <span class="insertedWord"
+                            id="S2_w17"></span>.
+                    </p>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

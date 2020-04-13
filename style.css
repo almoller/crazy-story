@@ -1,0 +1,23 @@
+#top_Section {
+    background-image: url("triangle-mosaic.png");
+}
+#Story1-Words {
+    display: none;
+}
+
+#Story1-Complete {
+    display: none;
+}
+
+#Story2-Words {
+    display: none;
+}
+
+#Story2-Complete {
+    display: none;
+}
+
+.insertedWord {
+    text-decoration: underline;
+    background-color: rgba(145, 227, 255, 0.2); 
+}
