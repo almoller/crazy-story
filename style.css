@@ -1,5 +1,8 @@
-#top_Section {
+body {
     background-image: url("triangle-mosaic.png");
+}
+#top_Section {
+    background-image: url("double-bubble-dark.png");
 }
 #Story1-Words {
     display: none;
